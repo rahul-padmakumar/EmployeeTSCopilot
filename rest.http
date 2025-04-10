@@ -1,0 +1,26 @@
+GET http://localhost:3000/employees/
+###
+
+GET http://localhost:3000/employees/1
+###
+
+POST http://localhost:3000/employees/
+Content-Type: application/json
+
+{
+    "lastName": "Smith",
+    "firstName": "John",
+    "hireDate": "2023-09-30",
+    "position": "Developer"
+}
+###
+
+PUT http://localhost:3000/employees/1
+Content-Type: application/json
+
+{
+  "position": "Manager"
+}
+###
+
+DELETE http://localhost:3000/employees/2

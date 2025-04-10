@@ -1,0 +1,31 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "COPILOT_DEMO_CONNECTION",
+            "database": "COPILOT_DEMO",
+            "username": "rahul_p"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "COPILOT_DEMO",
+            "name": "COPILOT_CONNECTION",
+            "username": "root",
+            "askForPassword": true
+        }
+    ]
+}
